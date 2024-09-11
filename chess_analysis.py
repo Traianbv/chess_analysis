@@ -46,7 +46,7 @@ class ChessApp:
         self.pieces = {}
         pieces = ['bP', 'bN', 'bB', 'bR', 'bQ', 'bK', 'wP', 'wN', 'wB', 'wR', 'wQ', 'wK']
         for piece in pieces:
-            self.pieces[piece] = pygame.image.load(fr'C:\Users\Traian\Desktop\images\{piece}.png')
+            self.pieces[piece] = pygame.image.load(fr'your path of images{piece}.png')
 
     def setup_ui(self):
         # Configurarea UI inițială
